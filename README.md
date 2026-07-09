@@ -41,7 +41,7 @@ It is designed to work with WordPress block themes and classic themes using the 
 
 ### Manual Installation
 
-1. Download the plugin.
+1. Download the plugin: Get the [newest release](https://github.com/WPConstructor/previous-next-post-block/releases/).
 2. Upload the plugin folder to:
 
 ```
