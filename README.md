@@ -1,4 +1,6 @@
-# WPConstructor Previous Next Post Block
+<h1 align="center">WPConstructor Previous Next Post Block</h1>
+
+<p align="center"><img src="https://wpconstructor.com/assets/images/logos/wpconstructor-previous-next-blog.png" alt="Logo of WPConstructor Previous Next Post Block" width="400"></p>
 
 A lightweight WordPress block that adds previous and next post navigation with featured images and post titles.
 
