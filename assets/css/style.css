@@ -1,0 +1,57 @@
+.wpcn-post-navigation-divider {
+    margin: 3rem 0;
+}
+
+.wpcn-post-navigation-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+}
+
+.wpcn-post-nav-image {
+    display: block;
+    width: 40%;
+    text-decoration: none;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.wpcn-post-nav-image:hover {
+    transform: scale(1.04);
+}
+
+.wpcn-feature-image {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.wpcn-post-nav-title {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.wpcn-post-nav-image.prev {
+    text-align: center;
+}
+
+.wpcn-post-nav-image.next {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .wpcn-post-navigation-images {
+        flex-direction: column;
+    }
+
+    .wpcn-post-nav-image {
+        width: 100%;
+    }
+
+}
