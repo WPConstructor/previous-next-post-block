@@ -17,6 +17,10 @@ The block displays the previous and next posts with:
 
 It is designed to work with WordPress block themes and classic themes using the block editor.
 
+## Screenshot
+
+![WPConstructor Previous Next Post Block Screenshot](https://wpconstructor.com/assets/images/readme/screenshots/previous-next-post-block-screenshot.jpg)
+
 ## Features
 
 - ✅ Previous and next post navigation
@@ -116,10 +120,6 @@ wpconstructor-previous-next-post-block/
     └── js/
         └── editor.js
 ```
-
-## Screenshot
-
-![WPConstructor Previous Next Post Block Screenshot](https://wpconstructor.com/assets/images/readme/screenshots/previous-next-post-block-screenshot.jpg)
 
 ## Changelog
 
