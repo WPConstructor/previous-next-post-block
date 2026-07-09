@@ -5,7 +5,7 @@
  * Description: WPConstructor Previous Next Post Block adds a customizable previous and next post navigation block with featured images and post titles for WordPress.
  * Version: 0.1.0
  * Requires at least: 6.0
- * Requires PHP: 8.2
+ * Requires PHP: 7.6
  * Author: WPConstructor
  * Author URI: https://wpconstructor.com
  * License: GPL-3.0-or-later http://www.gnu.org/licenses/gpl-3.0.txt
@@ -36,7 +36,7 @@ add_action(
 
 		wp_register_script(
 			'wpcn-previous-next-post-block-editor',
-			WPCN_PREVIOUS_NEXT_POST_BLOCK_URL . 'assets/index.js',
+			WPCN_PREVIOUS_NEXT_POST_BLOCK_URL . 'assets/js/editor.js',
 			array(
 				'wp-blocks',
 				'wp-element',
