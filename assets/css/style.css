@@ -1,25 +1,26 @@
-.wpcn-post-navigation-divider {
-    margin: 3rem 0;
-}
-
+/* Container for previous/next images */
 .wpcn-post-navigation-images {
     display: flex;
     justify-content: space-between;
     gap: 20%;
 }
 
+/* Individual navigation link wrapper */
 .wpcn-post-nav-image {
     display: block;
     width: 40%;
     text-decoration: none;
     overflow: hidden;
     transition: transform 0.3s ease;
+    text-align:center;
 }
 
+/* Hover effect for navigation links */
 .wpcn-post-nav-image:hover {
     transform: scale(1.04);
 }
 
+/* Feature image styling */
 .wpcn-feature-image {
     display: block;
     width: auto;
@@ -28,20 +29,13 @@
     border-radius: 20px;
 }
 
+/* Navigation link title */
 .wpcn-post-nav-title {
     display: block;
     margin-top: 1rem;
     font-weight: 600;
     font-size: 25px;
     line-height: 1.3;
-}
-
-.wpcn-post-nav-image.prev {
-    text-align: center;
-}
-
-.wpcn-post-nav-image.next {
-    text-align: center;
 }
 
 @media (max-width: 768px) {

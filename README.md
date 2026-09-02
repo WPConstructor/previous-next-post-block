@@ -85,15 +85,23 @@ The plugin includes default styling:
 You can override the CSS classes in your theme:
 
 ```css
+/* Container for previous/next images */
 .wpcn-post-navigation-images {
 }
 
+/* Individual navigation link wrapper */
 .wpcn-post-nav-image {
 }
 
+/* Hover effect for navigation links */
+.wpcn-post-nav-image:hover {
+}
+
+/* Feature image styling */
 .wpcn-feature-image {
 }
 
+/* Navigation link title */
 .wpcn-post-nav-title {
 }
 ```
