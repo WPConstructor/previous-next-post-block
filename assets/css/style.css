@@ -15,6 +15,11 @@
     text-align:center;
 }
 
+/* Center single navigation item when only one exists */
+.wpcn-post-nav-image:only-child {
+    margin-inline: auto;
+}
+
 /* Hover effect for navigation links */
 .wpcn-post-nav-image:hover {
     transform: scale(1.04);
