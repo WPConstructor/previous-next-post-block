@@ -106,35 +106,14 @@ You can override the CSS classes in your theme:
 }
 ```
 
-## Development
-
-Clone the repository:
-
-```bash
-git clone https://github.com/wpconstructor/wpconstructor-previous-next-post-block.git
-```
-
-## File Structure
-
-```
-wpconstructor-previous-next-post-block/
-│
-├── wpconstructor-previous-next-post-block.php
-├── LICENSE
-├── README.md
-└── assets/
-    └── css/
-        └── style.css
-    └── js/
-        └── editor.js
-```
-
 ## Changelog
 
-- v0.1.0 9th July 2026
-  - First working MVP Release.
+- v0.1.2 5th November 2026
+  - Centered single post navigation.
 - v0.1.1 2nd September 2026
   - Improved assets/styles.css
+- v0.1.0 9th July 2026
+  - First working MVP Release.
 
 ## License
 
